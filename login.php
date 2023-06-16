@@ -27,10 +27,10 @@ include("connection/connect.php"); //INCLUDE CONNECTION
 error_reporting(0); // hide undefine index errors
 session_start(); // temp sessions
 // Memeriksa apakah pengguna telah login
-if(isset($_SESSION['submit']))   // if button is submit
+if(isset($_POST['submit']))   // if button is submit
 {
-	$username = $_SESSION['username'];  //fetch records from login form
-	$password = $_SESSION['password'];
+	$username = $_POST['username'];  //fetch records from login form
+	$password = $_POST['password'];
 	
 	if(!empty($_SESSION["submit"])){   // if records were not empty
 		$loginquery1 ="SELECT * FROM users WHERE username='$username' && password='".md5($password)."'"; //selecting matching records
