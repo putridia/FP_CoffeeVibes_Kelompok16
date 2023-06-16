@@ -2,11 +2,6 @@
 <html lang="en">
 <?php
 session_start();
-if (!isset($_SESSION['username'])) {
-    // Jika sesi login tidak ada, redirect pengguna ke halaman login
-    header("Location: ../login.php");
-    exit();
-}
 include("../connection/connect.php");
 error_reporting(0);
 ?>
