@@ -10,7 +10,9 @@ link http://coffeevibes.great-site.net/
 
 ## Admin Dashboard
 To access admin portal type this in your URL BAR **\`root**/admin/ \`  where **root** is your root directory
+
 **Admin credentials:** Username: **admin** Password: **1234**
+
 **User credentials:** Username: **user** Password: **123456**
 
 ## Technologies Used
