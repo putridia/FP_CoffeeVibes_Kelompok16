@@ -2,8 +2,8 @@
 Matakuliah Pemrograman Website
 Kelompok 16
 Nama Anggota : 
-- Rhohmah Indah Mekar Sari  21082010003 
-- Putri Dia Lestari         21082010019
+- Rhohmah Indah Mekar Sari  21082010021 
+- Putri Dia Lestari         21082010035
 
 Sistem Informasi CoffeeVibes merupakan website pemesanan cafe secara online yang dibuat dengan 2 user yaitu user pengunjung dan user admin.
 link http://coffeevibes.great-site.net/ 
